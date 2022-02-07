@@ -1,0 +1,39 @@
+{
+    "id": 7317,
+    "uid": "9910ace0-542e-44e1-aae0-caa14501677e",
+    "password": "HchGyKeV5F",
+    "first_name": "Rosalyn",
+    "last_name": "Kiehn",
+    "username": "rosalyn.kiehn",
+    "email": "rosalyn.kiehn@email.com",
+    "avatar": "https://robohash.org/culpasedducimus.png?size=300x300\u0026set=set1",
+    "gender": "Non-binary",
+    "phone_number": "+850 (123) 405-1862",
+    "social_insurance_number": "488989146",
+    "date_of_birth": "1978-12-24",
+    "employment": {
+        "title": "Manufacturing Agent",
+        "key_skill": "Work under pressure"
+    },
+    "address": {
+        "city": "Lake Mary",
+        "street_name": "Corwin Keys",
+        "street_address": "349 Schuster Route",
+        "zip_code": "84349",
+        "state": "Ohio",
+        "country": "United States",
+        "coordinates": {
+            "lat": 9.971843531617026,
+            "lng": -67.64625097301533
+        }
+    },
+    "credit_card": {
+        "cc_number": "6771-8954-5911-2618"
+    },
+    "subscription": {
+        "plan": "Free Trial",
+        "status": "Pending",
+        "payment_method": "Google Pay",
+        "term": "Annual"
+    }
+}
