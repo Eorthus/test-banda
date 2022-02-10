@@ -1,0 +1,172 @@
+.container{
+    margin:0;
+    padding:0;
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    }
+    header{   
+        min-height: 75px;
+        height: 100%;
+        background: linear-gradient( 
+            135deg
+             , #282f29 0%, #282f29 100%, #f1e767 60%);
+    }
+    h1{
+        margin: auto;
+        padding-right: 10%;
+        color: white;
+        font-size: 40px;
+        text-align: end;
+        line-height: 75px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    main{
+        display: flex;
+        width:100%;
+        
+    }
+    body{
+        background: rgb(250, 249, 238)
+    }
+    .main-user{
+    width:30%;
+    }
+    .main-beer{
+    width:70%
+    }
+
+    .main-beer{
+        position: relative;
+    }
+
+    .desc-img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    margin: auto;
+    background: #f1e767;
+position: relative;
+    }
+    .beer-item img{
+    width:100%;
+    height:100%;
+    
+    }
+    .desc{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        width:100%;
+        margin-top:5%;
+        font-size:18px;
+    }
+    .desc-left{
+        width:50%;
+        margin-left:15%
+    } 
+       .desc-right{
+        width:50%;
+        margin-left:15%
+    }
+
+    .desc span{
+        color: rgb(241, 231, 103);
+    }
+    .beer-item{
+        padding: 5%;
+    }
+    .beer-item p{
+        margin-left:5%;
+        margin-top:5%;
+        color:#282f29;
+    }
+    .desc-name{
+        text-align: center;
+        font-size: 40px;
+        text-shadow: #000 1px 0 10px;
+        color:white;
+        font-weight:400;
+        position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    }
+
+    .user-item{
+        background:white;
+       
+        box-shadow: 15px 11px 25px -5px rgba(#282f29,0.39);
+    }
+    .user-item img{
+        width:100%;
+    }
+
+    .user-item-info-name{
+        text-transform: uppercase;
+        color: #f1e767;
+font-size: 18px;
+        text-align: center;
+    }
+    .user-item-info{
+        padding-bottom: 5%;
+    }
+details p{
+margin-left:5%;
+}
+.user-item summary{
+    background: linear-gradient(
+        135deg
+        , #282f29 0%, #282f29 60%, #f1e767 50%);
+            border-radius: 0px 76px 76px 0px / 0px 70px 70px 0px;
+            min-height: 35px;
+            height: 100%;
+            width: 80%;
+            line-height: 35px;
+            margin: 2% 0;
+            padding-left: 5%;
+            color: white;
+            list-style-type: initial;
+}
+
+    .Reload{
+        text-transform: uppercase;
+        border: none;
+        padding: 5px 20px;
+        background: #282f29;
+        color: white;
+        margin: auto;
+        display: block;
+        padding: 0 10%;
+        min-height: 35px;
+        height: 100%;
+        border-radius: 20px;
+        margin-top: 2%;
+        font-size: 18px;
+    }
+    @media (max-width:500px) {
+        h1{
+text-align: center;
+padding:0px;
+        }
+        main{
+            flex-direction: column-reverse;
+        }
+        .main-user{
+            width:100%
+        }
+        .main-beer{
+            width:100%;
+        }
+        .desc-img{
+            width: 80%;
+    height: 80%;
+        }
+        .user-item{
+            box-shadow: none;
+        }
+        .desc-left{
+            margin-left:5%;
+        }
+    }
